@@ -15,11 +15,12 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.2</version>
 	</parent>
+	<properties>
+		<java.version>11</java.version>
+		<spring-cloud.version>2021.0.5</spring-cloud.version>
+	</properties>
 
-	<modules>
-		<module>../Eureka-Server</module>
-		<module>../User-Service</module>
-		<module>../Miscellaneous-Service</module>
-		<module>../Delievery-Service</module>
-	</modules>
+	<!-- <modules> <module>../Eureka-Server</module> <module>../User-Service</module> 
+		<module>../Miscellaneous-Service</module> <module>../Delievery-Service</module> 
+		</modules> -->
 </project>
